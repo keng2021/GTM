@@ -1,0 +1,556 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-11-24 07:39:14",
+    "containerVersion": {
+        "path": "accounts/6005394482/containers/55086511/versions/3",
+        "accountId": "6005394482",
+        "containerId": "55086511",
+        "containerVersionId": "3",
+        "name": "revise the variable for transaction tag products",
+        "container": {
+            "path": "accounts/6005394482/containers/55086511",
+            "accountId": "6005394482",
+            "containerId": "55086511",
+            "name": "keng2021.github.io",
+            "publicId": "GTM-MSRN6LX",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1637737277572",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6005394482/containers/55086511/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "3",
+                "name": "Criteo 動的ローダータグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- Criteo Loader File -->\n<script type=\"text/javascript\" src=\"//dynamic.criteo.com/js/ld/ld.js?a={{CriteoPartnerID}}\" async=\"true\">\n</script>\n<!-- END Criteo Loader File -->"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738533257",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "4",
+                "name": "Criteo トップページタグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\">\n    window.criteo_q = window.criteo_q || [];\n    window.criteo_q.push(\n    { event: \"setAccount\", account: {{CriteoPartnerID}} },\n    { event: \"setEmail\", email: \"\" },\n    { event: \"setSiteType\", type: {{CriteoSiteType}} },\n    { event: \"viewHome\" }\n    );\n</script> "
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738701187",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "5",
+                "name": "Criteo 製品一覧ページタグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\">\n    window.criteo_q = window.criteo_q || [];\n    window.criteo_q.push(\n    { event: \"setAccount\", account: {{CriteoPartnerID}} },\n    { event: \"setEmail\", email: \"\" },\n    { event: \"setSiteType\", type: {{CriteoSiteType}} },\n    { event: \"viewList\", item: {{CriteoProductIDList}} }\n    );\n</script> "
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738720338",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "6",
+                "name": "Criteo 製品詳細ページタグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\">\n    window.criteo_q = window.criteo_q || [];\n    window.criteo_q.push(\n    { event: \"setAccount\", account: {{CriteoPartnerID}} },\n    { event: \"setEmail\", email: \"\"},\n    { event: \"setSiteType\", type: {{CriteoSiteType}} },\n    { event: \"viewItem\", item: {{CriteoProductID}} }\n    );\n</script> "
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738730604",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "7",
+                "name": "Criteo 買い物かごページタグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\">\n    window.criteo_q = window.criteo_q || [];\n    window.criteo_q.push(\n    { event: \"setAccount\", account: {{CriteoPartnerID}} },\n    { event: \"setEmail\", email: \"\" },\n    { event: \"setSiteType\", type: {{CriteoSiteType}} },\n    { event: \"viewBasket\", item: {{CriteoProductIDBasket}} }\n    );\n</script> "
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738689552",
+                "firingTriggerId": [
+                    "19"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "tagId": "8",
+                "name": "Criteo コンバージョンページタグ",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\">\n    window.criteo_q = window.criteo_q || [];\n    window.criteo_q.push(\n    { event: \"setAccount\", account: {{CriteoPartnerID}} },\n    { event: \"setEmail\", email: \"\"},\n    { event: \"setSiteType\", type: {{CriteoSiteType}} },\n    { event: \"trackTransaction\" , id: {{TransactionID}}, item: {{CriteoProductIDTrans}} }\n    );\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1637738609032",
+                "firingTriggerId": [
+                    "20"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "triggerId": "16",
+                "name": "Homepage",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CriteoPageType}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Homepage"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1637738405780"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "triggerId": "17",
+                "name": "Listing page",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CriteoPageType}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Listingpage"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1637738418172"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "triggerId": "18",
+                "name": "Product page",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CriteoPageType}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Productpage"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1637738443617"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "triggerId": "19",
+                "name": "Basket page",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CriteoPageType}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Basketpage"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1637738464102"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "triggerId": "20",
+                "name": "Transaction page",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CriteoPageType}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Transactionpage"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1637738486125"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "9",
+                "name": "CriteoPartnerID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "75563"
+                    }
+                ],
+                "fingerprint": "1637738217305",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "10",
+                "name": "CriteoSiteType",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "    function(){\n    return /iPad/.test(navigator.userAgent)?\"t\":/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent)?\"m\":\"d\";\n    } "
+                    }
+                ],
+                "fingerprint": "1637738266938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "11",
+                "name": "CriteoProductID",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ProductID"
+                    }
+                ],
+                "fingerprint": "1637738315290",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "12",
+                "name": "CriteoProductIDList",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ProductIDList"
+                    }
+                ],
+                "fingerprint": "1637738329308",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "13",
+                "name": "CriteoPageType",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "PageType"
+                    }
+                ],
+                "fingerprint": "1637738341950",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "14",
+                "name": "CriteoProductIDBasket",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ProductBasketProducts"
+                    }
+                ],
+                "fingerprint": "1637738354736",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "15",
+                "name": "CriteoProductIDTrans",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ProductTransactionProducts"
+                    }
+                ],
+                "fingerprint": "1637738876581",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "variableId": "21",
+                "name": "TransactionID",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "TransactionID"
+                    }
+                ],
+                "fingerprint": "1637738658016",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6005394482",
+                "containerId": "55086511",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1637738893134",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6005394482/containers/55086511/versions/3?apiLink=version"
+    }
+}
